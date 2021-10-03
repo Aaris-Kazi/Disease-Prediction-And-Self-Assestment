@@ -64,3 +64,19 @@ header{
     padding-right: 15px;
     height: 600px;
 }
+.it_work_icon{
+    text-align: left;
+    display: flex;
+    padding-bottom: 2px;
+    color: black;
+    font-weight: 500;
+    font-size: 25px;
+}
+.icon-pack{
+    margin-top: 16px;
+    height: 35px;
+    width: 35px;
+}
+p{
+    margin-left: 15px;
+}
