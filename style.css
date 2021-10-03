@@ -51,7 +51,8 @@ header{
     justify-content: center;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 590px;
+    /* margin-bottom: 590px; */
+    color: #666;
     font-size: 25px;
 }
 .gifs{
@@ -61,4 +62,5 @@ header{
     float: right;
     padding-left: 15px;
     padding-right: 15px;
+    height: 600px;
 }
