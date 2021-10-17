@@ -134,6 +134,7 @@ h4{
     margin:5px;
     padding: 5px;
     border: 0;
+    display: block;
 }
 section{
     margin-left: auto;
@@ -146,4 +147,115 @@ section{
     padding: 40px 0;
     text-align: left;
     margin-left: 195px;
+}
+.card-title{
+    color: #000;
+    padding-bottom: 5px;
+    font-size: 18px;
+    line-height: 18px !important;
+    width: 75% !important;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    display: block;
+}
+.img-card{
+    position: relative;
+    height: 82%;
+    width: auto !important;
+    right: 0;
+    vertical-align: baseline;
+    -webkit-text-size-adjust: 100%;
+}
+.card-holder{
+    margin-left: 180px;
+    /* display: inline-flex!important; */
+}
+.card{
+    margin: 15px;
+    background: #C9EFFF;
+    display: inline-flex!important;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    padding: 15px;
+    flex: 0 0 33.333333%;
+    border-radius:25px;
+    padding-bottom: 30px;
+    width: 330px;
+    height: 200px;
+}
+.boot-card{
+    display: block;
+    width: 69% !important;
+    color: #333333;
+    font-family: Poppins-Regular;
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+.img-card{
+    position: absolute;
+    margin-top: 28px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+h6{
+    display: block;
+    color: #000;
+}
+.icon-set{
+    height: 25px;
+    display: inline-flex!important;
+    color: #000;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 88px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    display: block;
+    font-size: 10px;
+}
+.icon-set1{
+    top: 32px;
+    height: 25px;
+    position: relative;
+    text-align: left;
+    display: inline-flex!important;
+    max-width: 99px;
+    max-height: 26px;
+    margin: 5px 0px 0 5px;
+}
+.check-now{
+    background-color: #FF836F;
+    border-color: #FF836F;
+    box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    width: 105px;
+    height: 28px;
+    border-radius: 6px;
+    font-size: 12px;
+    line-height: 12px;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    right: 0;
+    margin: 0;
+    overflow: visible;
+    text-transform: none;
+    background: transparent linear-gradient(
+        180deg, #FF836F 0%, #FF5D45 100%) 0% 0% no-repeat padding-box;
 }
