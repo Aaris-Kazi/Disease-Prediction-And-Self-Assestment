@@ -170,7 +170,15 @@ section{
     -webkit-text-size-adjust: 100%;
 }
 .card-holder{
-    margin-left: 180px;
+    position: relative;
+    /* margin-left: 180px; */
+    /* margin-left: 98px;
+     */
+     max-width: 1190px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
     /* display: inline-flex!important; */
 }
 .card{
