@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Self-Check| Disease Assestment System</title>
-    <link rel="shortcut icon" href="images\heart.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/heart.png') }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <header class="headers">
         <div class="heads">
             <div class="head-logo">
                 <a href="index.html">
-                    <img class="logos" src="images\heart.png" alt="" srcset="">
+                    <img class="logos" src="{{ url_for('static', filename='images/heart.png') }}" alt="" srcset="">
                 </a>
                 <b><a href="#" class="purpose">Health Check</a></b>
                 <b><a href="#" class="purpose">For Hospitals/ Clinics</a></b>
@@ -30,47 +30,47 @@
                 </section>
                 <div>
                     <div class="it_work_icon">
-                        <img class="icon-pack" src="images\envelope.png" alt="" srcset="">
+                        <img class="icon-pack" src="{{ url_for('static', filename='images/envelope.png') }}" alt="" srcset="">
                         <p class="ic" >Answer Chat based Questions</p>
                     </div>
                     <div class="it_work_icon">
-                        <img class="icon-pack" src="images\google-docs.png" alt="" srcset="">
+                        <img class="icon-pack" src="{{ url_for('static', filename='images/google-docs.png') }}" alt="" srcset="">
                         <p class="ic" >Get a detail risk Report</p>
                     </div>
                     <div class="it_work_icon">
-                        <img class="icon-pack" src="images\paper-plane.png" alt="" srcset="">
+                        <img class="icon-pack" src="{{ url_for('static', filename='images/paper-plane.png') }}" alt="" srcset="">
                         <p class="ic" >Follow simple advice to lower risks</p>
                     </div>
                 </div>
             </div>
-            <img class='sm-banner' src="images\myproperty.gif" alt="banners" srcset="">
+            <img class='sm-banner' src="{{ url_for('static', filename='images/myproperty.gif') }}" alt="banners" srcset="">
         </div>
     </div>
     <section>
         <div class="container">
             <div class="blocks">
-                <img src="images\hearts.png" alt="" srcset="" style="width: 30px;">
+                <img src="{{ url_for('static', filename='images/hearts.png') }}" alt="" srcset="" style="width: 30px;">
                 <h4 style="height: 0px; font-size: 20px;line-height: 30px;color: #fff;">0.5 Million</h4>
                 <p style="text-align: center;font-size: 18px;line-height: 18px;color: #fff;" >Women have been assesed for PCOD </p>
             </div>
             
             <div class="blocks">
-                <img src="images\like.png" alt="" srcset="" style="width: 30px;">
+                <img src="{{ url_for('static', filename='images/like.png') }}" alt="" srcset="" style="width: 30px;">
                 <h4 style="height: 0px; font-size: 20px;line-height: 30px;color: #fff;">1 Lakhs+ Users</h4>
                 <p style="text-align: center;font-size: 18px;line-height: 18px;color: #fff;">Liked the self checked </p>
             </div>
             <div class="blocks">
-                <img src="images\handshake.png" alt="" srcset="" style="width: 30px;">
+                <img src="{{ url_for('static', filename='images/handshake.png') }}" alt="" srcset="" style="width: 30px;">
                 <h4 style="height: 0px; font-size: 20px;line-height: 30px;color: #fff;">20000+ Users</h4>
                 <p style="text-align: center;font-size: 18px;line-height: 18px;color: #fff;">Avoided risks that could've lead to complication </p>
             </div>
             <div class="blocks">
-                <img src="images\support.png" alt="" srcset="" style="width: 30px;">
+                <img src="{{ url_for('static', filename='images/support.png') }}" alt="" srcset="" style="width: 30px;">
                 <h4 style="height: 0px; font-size: 20px;line-height: 30px;color: #fff;">5000+ Users</h4>
                 <p style="text-align: center;font-size: 18px;line-height: 18px;color: #fff;">Started thier long term care pack </p>
             </div>
             <div class="blocks">
-                <img src="images\crown.png" alt="" srcset="" style="width: 30px;" >
+                <img src="{{ url_for('static', filename='images/crown.png') }}" alt="" srcset="" style="width: 30px;" >
                 <h4 style="height: 0px; font-size: 20px;line-height: 30px;color: #fff;">1000+ Doctors</h4>
                 <p style="text-align: center;font-size: 18px;line-height: 18px;color: #fff;">Have certified these self checks </p>
             </div>
@@ -80,7 +80,7 @@
         <h4>What Can we help you today?</h4>
     </div>
     <div class="card-holder" >
-        <a href="assist.html">
+        <a href="/assist">
             <div class="card">
                 <h5 class="card-title">Out of breathe during walk?</h5>
                     <h6 class="boot-card">
@@ -89,21 +89,21 @@
                     </h6>
                     <div class="icon-set">
                         <p style="font-size: 10px; margin:0px; margin-right:5px;" >Under 5 mins</p>
-                        <img src="images\time.png" alt="" srcset="">
+                        <img src="{{ url_for('static', filename='images/time.png') }}" alt="" srcset="">
                     </div>
                 <div>
                     <div class="icon-set1">
-                        <img src="images\like1.png" style="height: 25px;" alt="" srcset="">
+                        <img src="{{ url_for('static', filename='images/like1.png') }}" style="height: 25px;" alt="" srcset="">
                         <p style="font-size: 13px; margin:0px; margin-right:5px; margin-top:5px; margin-left:5px;">15k+ User assesed</p>
                     </div>
                     <div class="icon-set1">
-                        <img src="images\crown1.png" style="height: 25px;" alt="" srcset="">
+                        <img src="{{ url_for('static', filename='images/crown1.png') }}" style="height: 25px;" alt="" srcset="">
                         <p style="font-size: 13px; margin:0px; margin-right:5px; margin-top:5px; margin-left:5px;">Certified by Cardiologist</p>
                     </div>
                 </div>
                 <button class="check-now">Check Now</button>
                 
-                <img src="images\heart-man.png" alt="" srcset="" class="img-card">
+                <img src="{{ url_for('static', filename='images/heart-man.png') }}" alt="" srcset="" class="img-card">
             </div>
         </a>
         <a href="">
@@ -115,21 +115,21 @@
                     </h6>
                     <div class="icon-set">
                         <p style="font-size: 10px; margin:0px; margin-right:5px;" >Under 5 mins</p>
-                        <img src="images\time.png" alt="" srcset="">
+                        <img src="{{ url_for('static', filename='images/time.png') }}" alt="" srcset="">
                     </div>
                 <div>
                     <div class="icon-set1">
-                        <img src="images\like1.png" style="height: 25px;" alt="" srcset="">
+                        <img src="{{ url_for('static', filename='images/like1.png') }}" style="height: 25px;" alt="" srcset="">
                         <p style="font-size: 13px; margin:0px; margin-right:5px; margin-top:5px; margin-left:5px;">13k+ User assesed</p>
                     </div>
                     <div class="icon-set1">
-                        <img src="images\crown1.png" style="height: 25px;" alt="" srcset="">
+                        <img src="{{ url_for('static', filename='images/crown1.png') }}" style="height: 25px;" alt="" srcset="">
                         <p style="font-size: 13px; margin:0px; margin-right:5px; margin-top:5px; margin-left:5px;">Certified by Doctors</p>
                     </div>
                 </div>
                 <button class="check-now">Check Now</button>
                 
-                <img src="images\thyroid-lady.png" alt="" srcset="" class="img-card">
+                <img src="{{ url_for('static', filename='images/thyroid-lady.png') }}" alt="" srcset="" class="img-card">
             </div>
         </a>
         <a href="">
@@ -141,21 +141,21 @@
                     </h6>
                     <div class="icon-set">
                         <p style="font-size: 10px; margin:0px; margin-right:5px;" >Under 5 mins</p>
-                        <img src="images\time.png" alt="" srcset="">
+                        <img src="{{ url_for('static', filename='images/time.png') }}" alt="" srcset="">
                     </div>
                 <div>
                     <div class="icon-set1">
-                        <img src="images\like1.png" style="height: 25px;" alt="" srcset="">
+                        <img src="{{ url_for('static', filename='images/like1.png') }}" style="height: 25px;" alt="" srcset="">
                         <p style="font-size: 13px; margin:0px; margin-right:5px; margin-top:5px; margin-left:5px;">11k+ User assesed</p>
                     </div>
                     <div class="icon-set1">
-                        <img src="images\crown1.png" style="height: 25px;" alt="" srcset="">
+                        <img src="{{ url_for('static', filename='images/crown1.png') }}" style="height: 25px;" alt="" srcset="">
                         <p style="font-size: 13px; margin:0px; margin-right:5px; margin-top:5px; margin-left:5px;">Certified by Physicians</p>
                     </div>
                 </div>
                 <button class="check-now">Check Now</button>
                 
-                <img src="images\covid-boy.png" alt="" srcset="" class="img-card">
+                <img src="{{ url_for('static', filename='images/covid-boy.png') }}" alt="" srcset="" class="img-card">
             </div>
         </a>
         <a href="">
@@ -167,21 +167,21 @@
                     </h6>
                     <div class="icon-set">
                         <p style="font-size: 10px; margin:0px; margin-right:5px;" >Under 5 mins</p>
-                        <img src="images\time.png" alt="" srcset="">
+                        <img src="{{ url_for('static', filename='images/time.png') }}" alt="" srcset="">
                     </div>
                 <div>
                     <div class="icon-set1">
-                        <img src="images\like1.png" style="height: 25px;" alt="" srcset="">
+                        <img src="{{ url_for('static', filename='images/like1.png') }}" style="height: 25px;" alt="" srcset="">
                         <p style="font-size: 13px; margin:0px; margin-right:5px; margin-top:5px; margin-left:5px;">10k+ User assesed</p>
                     </div>
                     <div class="icon-set1">
-                        <img src="images\crown1.png" style="height: 25px;" alt="" srcset="">
+                        <img src="{{ url_for('static', filename='images/crown1.png') }}" style="height: 25px;" alt="" srcset="">
                         <p style="font-size: 13px; margin:0px; margin-right:5px; margin-top:5px; margin-left:5px;">Certified by Diabetologist</p>
                     </div>
                 </div>
                 <button class="check-now">Check Now</button>
                 
-                <img src="images\diabetes-girl.png" alt="" srcset="" class="img-card">
+                <img src="{{ url_for('static', filename='images/diabetes-girl.png') }}" alt="" srcset="" class="img-card">
             </div>
         </a>
         <a href="">
@@ -193,21 +193,21 @@
                     </h6>
                     <div class="icon-set">
                         <p style="font-size: 10px; margin:0px; margin-right:5px;" >Under 5 mins</p>
-                        <img src="images\time.png" alt="" srcset="">
+                        <img src="{{ url_for('static', filename='images/time.png') }}" alt="" srcset="">
                     </div>
                 <div>
                     <div class="icon-set1">
-                        <img src="images\like1.png" style="height: 25px;" alt="" srcset="">
+                        <img src="{{ url_for('static', filename='images/like1.png') }}" style="height: 25px;" alt="" srcset="">
                         <p style="font-size: 13px; margin:0px; margin-right:5px; margin-top:5px; margin-left:5px;">15k+ User assesed</p>
                     </div>
                     <div class="icon-set1">
-                        <img src="images\crown1.png" style="height: 25px;" alt="" srcset="">
+                        <img src="{{ url_for('static', filename='images/crown1.png') }}" style="height: 25px;" alt="" srcset="">
                         <p style="font-size: 13px; margin:0px; margin-right:5px; margin-top:5px; margin-left:5px;">Certified by Doctors</p>
                     </div>
                 </div>
                 <button class="check-now">Check Now</button>
                 
-                <img src="images\migraine-girl.png" alt="" srcset="" class="img-card">
+                <img src="{{ url_for('static', filename='images/migraine-girl.png') }}" alt="" srcset="" class="img-card">
             </div>
         </a>
     </div>

@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Heart Check Up</title>
-    <link rel="shortcut icon" href="images\heart.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/heart.png') }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body style="    background-color: rgb(223, 243, 243);padding: 60px 15px 0;">
     <div class="survey" >
         <div class="head">
-            <img src="images\heart.png" alt="" srcset="" style="height: 40px;">
+            <img src="{{ url_for('static', filename='images/heart.png') }}" alt="" srcset="" style="height: 40px;">
             <h4>Self Check your Health</h4>
         </div>
     </div>
